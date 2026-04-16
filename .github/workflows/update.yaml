@@ -6,7 +6,7 @@ on:
 jobs:
   flatpak-external-data-checker:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'flathub'
+    if: github.repository_owner == 'cdumars'
     strategy:
       matrix:
         branch: [ master ]
