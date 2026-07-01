@@ -104,8 +104,8 @@ modules:
           - --disable-static
         sources:
           - type: archive
-            url: https://github.com/libass/libass/releases/download/0.17.4/libass-0.17.4.tar.xz
-            sha256: 78f1179b838d025e9c26e8fef33f8092f65611444ffa1bfc0cfac6a33511a05a
+            url: https://github.com/libass/libass/releases/download/0.17.5/libass-0.17.5.tar.xz
+            sha256: 2dca25c0e0c837ddf00b52011b3f82cac1e4ddd3ad018227806b0c2288864acc
             x-checker-data:
               type: anitya
               project-id: 1560
@@ -180,8 +180,8 @@ modules:
       - /bin
     sources:
       - type: archive
-        url: https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.32/OpenBLAS-0.3.32.tar.gz
-        sha256: f8a1138e01fddca9e4c29f9684fd570ba39dedc9ca76055e1425d5d4b1a4a766
+        url: https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.33/OpenBLAS-0.3.33.tar.gz
+        sha256: 6761af1d9f5d353ab4f0b7497be2643313b36c8f31caec0144bfef198e71e6ab
         x-checker-data:
           type: anitya
           project-id: 2540
@@ -298,8 +298,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/hydrusnetwork/hydrus.git
-        tag: v668
-        commit: 8ade14846bb3a5284a972be95ce6a2866de10bd5
+        tag: v676
+        commit: 6038d0680311205497f96dcffedbb6b26d49eeb8
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
